@@ -65,6 +65,30 @@ New appointment time: 11:30 am
 Practitioner: Emma Jones
 Instructions: Contact reception if this time is unsuitable.
 
+## Final Test Output
+
+Hi Michael,
+
+Your appointment originally scheduled for **20 August 2026 at 10:00 am** with **Emma Jones** has been rescheduled.
+
+Your new appointment is confirmed for **22 August 2026 at 11:30 am**.
+
+If the new appointment time is unsuitable, please contact reception.
+
+Thank you for your understanding.
+
+## Test Evaluation
+
+The final prompt correctly communicated the appointment change in a polite and professional manner.
+
+The original and new appointment details were clearly included.
+
+The output did not invent a reason for the rescheduling or add unnecessary clinical information.
+
+The message gave clear instructions for contacting the clinic if the new time was unsuitable.
+
+The output is suitable for use after staff confirm the booking details.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
