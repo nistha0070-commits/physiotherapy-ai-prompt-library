@@ -72,6 +72,32 @@ Arrival time: Please arrive 10 minutes early
 Items to bring: Referral letter and Medicare card
 Other instructions: Check in at reception.
 
+## Final Test Output
+
+Hi Amanda,
+
+Your appointment is scheduled for **24 August 2026 at 9:30 am** at **Central Physiotherapy Clinic**.
+
+Please arrive **10 minutes early** and check in at reception when you arrive.
+
+Please bring:
+- Your referral letter
+- Your Medicare card
+
+We look forward to seeing you.
+
+## Test Evaluation
+
+The final prompt produced a clear and easy-to-follow appointment preparation message.
+
+All supplied administrative instructions were included correctly.
+
+The AI did not generate medical preparation advice, exercise recommendations, medication instructions or treatment changes.
+
+The output remained within the intended administrative scope.
+
+Staff should verify the appointment details and any preparation instructions before sending.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
