@@ -65,6 +65,30 @@ Feedback method: Online survey
 Feedback link: [Approved clinic feedback link]
 Additional information: Feedback is optional and helps improve clinic services.
 
+## Final Test Output
+
+Hi Sophie,
+
+Thank you for attending our clinic.
+
+We would appreciate your feedback about your experience. If you would like to provide feedback, you can complete our online survey using the approved clinic feedback link.
+
+Providing feedback is completely optional and helps us improve our clinic services.
+
+Thank you for your time.
+
+## Test Evaluation
+
+The final prompt produced a friendly and neutral feedback request.
+
+The message clearly stated that participation was optional.
+
+The AI did not pressure the patient to provide positive feedback or suggest that future treatment depended on participation.
+
+No unnecessary medical information was requested.
+
+The output is suitable for use after staff confirm the approved survey method or link.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
