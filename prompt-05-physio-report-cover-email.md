@@ -1,39 +1,64 @@
 # Prompt 5 – Physiotherapy Report Cover Email to GP
 
-## Version 1
+## Version 1 – v1.0
 
 Write an email to a GP with a physiotherapy report attached.
 
-## Version 2
+## Version 2 – v1.1
 
-Write a professional cover email to a GP for an attached physiotherapy report. Include the GP name, patient name, report type, physiotherapist name, and report date.
+Write a professional cover email including the GP name, patient name, report type, physiotherapist name and report date.
 
-## Final Version
+## Final Prompt Text – v1.2
 
-You are assisting the administration team in a physiotherapy clinic. Create a professional cover email to a GP or referring practitioner for a physiotherapy report that has already been prepared and approved.
+You are an administrative assistant supporting a physiotherapy clinic.
 
-Use only the information provided.
+Create a concise and professional cover email to a GP or referring practitioner for a physiotherapy report that has already been prepared and approved.
+
+Use only the information supplied.
 
 Include:
-
 - GP or practitioner name
 - Patient name
 - Type of report attached
 - Treating physiotherapist name
-- Report or appointment date, if provided
-- A brief statement confirming that the report is attached
+- Report date, if provided
+- Statement confirming that the report is attached
 - Clinic contact details, if provided
-- An invitation to contact the clinic if further information is required
+- Invitation to contact the clinic if further information is required
 
-Keep the email concise, professional, and suitable for healthcare communication.
+Do not:
+- Summarise the clinical report
+- Interpret findings
+- Alter recommendations
+- Generate clinical information
+- Provide medical advice
 
-Do not summarise, interpret, or alter the clinical report.
+Do not invent missing details.
 
-Do not provide medical advice or create clinical findings.
+If important administrative information is missing, state that staff confirmation is required.
 
-Do not invent information.
+Produce a subject line and final email body only.
 
-If important information is missing, clearly state that staff confirmation is required.
+## Intended Workflow or Task
+
+This prompt supports external correspondence when an approved physiotherapy report is sent to a GP or referring practitioner.
+
+## Problem Being Solved
+
+Staff repeatedly prepare short cover emails for clinical reports. The repetitive task creates avoidable administrative work, while poor wording or incorrect attachments may create communication risk.
+
+## Automation Potential
+
+High for the administrative cover message. AI does not create or modify the clinical report. Clinic staff verify the recipient, patient details and attachment before sending.
+
+## Risks and Limitations
+
+Risks include incorrect recipient details, wrong attachments and accidental AI interpretation of clinical information.
+
+Mitigation:
+- Restrict AI to administrative content.
+- Treat the approved report as separate.
+- Human verification of recipient and attachment.
 
 ## Example Input
 
@@ -44,19 +69,13 @@ Treating physiotherapist: Sharon Patel
 Report date: 19 August 2026
 Clinic contact: 03 9000 1234
 
-## Improvement Notes
+## Audit Log
 
-Version 1 was too simple and did not provide enough context.
-
-Version 2 added the essential report and recipient details.
-
-The final version added restrictions on clinical interpretation, professional healthcare communication requirements, and safeguards against invented information.
-
-## Audit Notes
-
-- Confirmed that this prompt only creates the administrative cover email and does not generate the clinical report.
-- Added restrictions preventing the AI from summarising, interpreting, or modifying clinical findings.
-- Checked that only supplied practitioner, patient, and report information is used.
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+|---|---|---|---|
+| v1.0 | Simple cover email instruction | AI could unnecessarily discuss report content | Separate administrative and clinical tasks |
+| v1.1 | Added report and practitioner details | More professional but clinical boundaries remained unclear | Explicit clinical exclusions are needed |
+| v1.2 | Prohibited interpretation and medical advice | Output stayed within administrative scope | AI boundaries improve governance |- Checked that only supplied practitioner, patient, and report information is used.
 - Staff must confirm that the correct report is attached before sending.
 - Main risks identified include sending the wrong attachment, inaccurate recipient details, or AI-generated clinical interpretation.
 - Human verification remains essential because clinical communication must stay under practitioner control.
