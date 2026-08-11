@@ -1,58 +1,75 @@
 # Prompt 9 – Patient Feedback Request
 
-## Version 1
+## Version 1 – v1.0
 
-Write a message asking a patient for feedback.
+Write a message asking a physiotherapy patient for feedback.
 
-## Version 2
+## Version 2 – v1.1
 
-Write a friendly and professional patient feedback request. Include the patient’s first name, a thank-you message, feedback link, and a statement that feedback is optional.
+Write a friendly feedback request including a thank-you, feedback method and statement that feedback is optional.
 
-## Final Version
+## Final Prompt Text – v1.2
 
-You are assisting the administration team in a physiotherapy clinic. Create a short, friendly and professional message inviting a patient to provide feedback about their clinic experience using only the information provided.
+You are an administrative assistant supporting a physiotherapy clinic.
+
+Create a short, friendly and professional message inviting a patient to provide feedback about their clinic experience.
+
+Use only the information supplied.
 
 Include:
-
 - Patient first name, if provided
-- A brief thank-you for attending the clinic
-- A neutral request for feedback
-- Feedback link or method, if provided
-- A statement that providing feedback is optional
+- Brief thank-you for attending the clinic
+- Neutral request for feedback
+- Approved feedback method or link
+- Statement that providing feedback is optional
 
-Keep the message warm, respectful, and concise.
+Keep the message warm, concise and respectful.
 
-Do not pressure the patient to leave a positive review.
+Do not:
+- Pressure the patient to leave positive feedback
+- Suggest that treatment depends on feedback
+- Invent survey links
+- Invent incentives
+- Request unnecessary medical information
 
-Do not imply that future treatment depends on providing feedback.
+Only include incentives if they have been explicitly approved and supplied.
 
-Do not offer incentives unless they have been specifically provided.
+Produce only the final patient-facing message.
 
-Do not invent survey links or contact information.
+## Intended Workflow or Task
 
-Do not request sensitive medical information.
+This prompt supports post-service feedback collection after an appointment or episode of care.
+
+## Problem Being Solved
+
+Staff may inconsistently request patient feedback or spend time drafting repetitive messages. Standardisation may improve response processes while protecting the quality and neutrality of feedback.
+
+## Automation Potential
+
+High. The clinic could automatically generate a feedback invitation after an eligible appointment. Staff should approve the template and feedback link before implementation.
+
+## Risks and Limitations
+
+Poorly designed AI messages could pressure patients or bias reviews.
+
+Mitigation:
+- Make participation voluntary.
+- Use neutral language.
+- Verify survey links.
+- Avoid requesting sensitive clinical details.
 
 ## Example Input
 
 Patient first name: Sophie
 Feedback method: Online survey
-Feedback link: www.exampleclinic.com/feedback
-Additional information: Feedback is voluntary and helps improve clinic services
+Feedback link: [Approved clinic feedback link]
+Additional information: Feedback is optional and helps improve clinic services.
 
-## Improvement Notes
+## Audit Log
 
-Version 1 did not provide enough structure or safeguards.
-
-Version 2 added the main feedback details.
-
-The final version added responsible-use controls by preventing pressure, positive-review bias, invented links, and unnecessary requests for medical information.
-
-## Audit Notes
-
-- Checked that the feedback request remains voluntary and neutral.
-- Added safeguards preventing the AI from pressuring patients to provide positive reviews.
-- Confirmed that incentives, links, and contact details cannot be invented.
-- Sensitive medical information is not requested through the feedback message.
-- Staff should verify that the feedback link or survey method is correct.
-- Main risks identified include biased review requests, incorrect links, inappropriate pressure, and privacy concerns.
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+|---|---|---|---|
+| v1.0 | Generic feedback request | Output could sound promotional | Feedback requests should remain neutral |
+| v1.1 | Added thank-you and optional participation | More patient-friendly but safeguards were limited | Prevent positive-review pressure |
+| v1.2 | Added neutrality, privacy and link controls | Output became more responsible | Ethical feedback collection requires unbiased wording |- Main risks identified include biased review requests, incorrect links, inappropriate pressure, and privacy concerns.
 - Human review ensures that the message reflects the clinic’s approved feedback process.
