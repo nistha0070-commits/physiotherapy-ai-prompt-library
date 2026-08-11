@@ -1,60 +1,78 @@
 # Prompt 8 – Missed Appointment Follow-Up
 
-## Version 1
+## Version 1 – v1.0
 
 Write a message to a patient who missed an appointment.
 
-## Version 2
+## Version 2 – v1.1
 
-Write a polite missed appointment follow-up message. Include the patient’s first name, missed appointment date and time, rescheduling instructions, and any clinic policy information provided.
+Write a polite missed-appointment message including the appointment date, time, rescheduling instructions and clinic policy if supplied.
 
-## Final Version
+## Final Prompt Text – v1.2
 
-You are assisting the administration team in a physiotherapy clinic. Create a courteous and professional follow-up message for a patient who did not attend a scheduled appointment using only the information provided.
+You are an administrative assistant supporting a physiotherapy clinic.
+
+Create a courteous and professional follow-up message for a patient who did not attend a scheduled appointment.
+
+Use only the information supplied.
 
 Include:
-
 - Patient first name
 - Missed appointment date
 - Missed appointment time
-- A neutral statement noting the missed appointment
+- Neutral statement noting the missed appointment
 - Instructions for contacting the clinic to reschedule
-- Approved cancellation or non-attendance policy information, if provided
+- Approved non-attendance or cancellation policy information, if supplied
 
-Keep the tone respectful and non-judgemental.
+Use a respectful and non-judgemental tone.
 
-Do not assume or speculate about why the patient missed the appointment.
-
-Do not criticise or blame the patient.
-
-Do not invent fees, penalties, or clinic policies.
-
-Do not include unnecessary medical or clinical information.
+Do not:
+- Assume why the patient missed the appointment
+- Blame or criticise the patient
+- Invent fees
+- Invent penalties
+- Invent clinic policies
+- Include unnecessary clinical information
 
 If policy information has not been provided, do not mention fees or penalties.
+
+Produce only the final patient-facing message.
+
+## Intended Workflow or Task
+
+This prompt supports follow-up after the booking system records a patient as not attending an appointment.
+
+## Problem Being Solved
+
+Manual follow-ups use staff time, while inconsistent or judgemental wording can negatively affect patient relationships. Missed appointments also reduce clinic utilisation.
+
+## Automation Potential
+
+High for drafting. A no-show status could trigger a draft message. Staff verify the attendance record and any applicable policy before sending.
+
+## Risks and Limitations
+
+AI may wrongly apply a fee, use an inappropriate tone or assume why the patient did not attend.
+
+Mitigation:
+- Policy must be supplied explicitly.
+- Neutral language.
+- Human verification of appointment records and fees.
 
 ## Example Input
 
 Patient first name: Liam
 Missed appointment date: 17 August 2026
 Missed appointment time: 4:00 pm
-Rescheduling instructions: Please call reception on 03 9000 1234
-Clinic policy: A cancellation fee may apply for appointments cancelled with less than 24 hours notice
+Rescheduling instructions: Please contact reception to arrange another appointment.
+Clinic policy: A cancellation fee may apply where the approved clinic cancellation policy applies.
 
-## Improvement Notes
+## Audit Log
 
-Version 1 was too vague and could produce an inappropriate or judgemental message.
-
-Version 2 added the missed appointment and rescheduling details.
-
-The final version added non-judgemental language, restrictions on assumptions, safeguards against invented fees or policies, and privacy controls.
-
-## Audit Notes
-
-- Checked that the wording remains neutral and non-judgemental.
-- Added safeguards preventing assumptions about why the patient missed the appointment.
-- Confirmed that fees, penalties, and policies cannot be invented.
-- Only approved clinic policy information may be included.
-- Staff should check the appointment record and relevant clinic policy before sending.
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+|---|---|---|---|
+| v1.0 | Generic missed-appointment message | Tone could sound judgemental | Tone must be explicitly controlled |
+| v1.1 | Added scheduling and policy information | More useful but could invent reasons or fees | Policy constraints are required |
+| v1.2 | Added neutral language and strict fee controls | Output became more appropriate | Responsible communication protects patient relationships |- Staff should check the appointment record and relevant clinic policy before sending.
 - Main risks identified include incorrect fees, inappropriate tone, inaccurate policy information, and negative patient experience.
 - Human oversight is required before the follow-up message is sent.
