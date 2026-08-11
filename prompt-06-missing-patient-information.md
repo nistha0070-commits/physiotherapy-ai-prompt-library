@@ -66,6 +66,30 @@ Reason: Required to complete billing records
 Instructions: Please contact reception using the clinic's approved communication method.
 Deadline: 21 August 2026
 
+## Final Test Output
+
+Hi Rachel,
+
+We require your **Medicare card details** to complete our billing records.
+
+Please provide the information to reception using the clinic's approved communication method by **21 August 2026**.
+
+If you have any questions, please contact reception.
+
+Thank you.
+
+## Test Evaluation
+
+The final prompt produced a clear and respectful request for missing administrative information.
+
+It requested only the information specified in the input.
+
+The output did not ask for additional medical or sensitive information and did not invent a different deadline or reason.
+
+The wording was simple and suitable for patient communication.
+
+Human review is still required because staff must confirm that the requested information is necessary and that the communication method is appropriate.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
