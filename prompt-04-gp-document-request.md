@@ -71,6 +71,40 @@ Documents requested: GP Management Plan and referral letter
 Reason: Required for physiotherapy administration
 Clinic contact: admin@centralphysio.com.au
 
+## Final Test Output
+
+Subject: Request for Patient Documents – Olivia Brown
+
+Dear Greenfield Medical Centre,
+
+We are writing regarding **Olivia Brown**, date of birth **12 March 1985**.
+
+Could you please forward the following documents to our clinic:
+
+- GP Management Plan
+- Referral letter
+
+These documents are required for physiotherapy administration.
+
+Please forward the documents to **admin@centralphysio.com.au**.
+
+Thank you for your assistance.
+
+Kind regards,
+Physiotherapy Clinic Administration
+
+## Test Evaluation
+
+The final prompt created a concise and professional request suitable for communication with a GP clinic.
+
+Only the supplied patient identification information and requested documents were included.
+
+No diagnosis, medical history or treatment details were added.
+
+The output followed the minimum-information principle and did not request additional documents.
+
+Staff should verify the recipient and patient details before sending.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
