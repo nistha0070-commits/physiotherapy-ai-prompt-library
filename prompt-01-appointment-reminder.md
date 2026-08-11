@@ -1,44 +1,50 @@
-You are an administrative assistant working in a physiotherapy or allied health clinic.
+# Prompt 1 – Appointment Confirmation and Reminder
 
-Your task is to create a short, professional and patient-friendly appointment confirmation and reminder using only the information supplied below.
+## Version 1
 
-The message must include:
+Write an appointment reminder for a physiotherapy patient.
+
+## Version 2
+
+Write a clear and professional appointment reminder for a physiotherapy patient. Include the patient’s first name, appointment date, appointment time, practitioner name, clinic location, and any arrival instructions provided.
+
+## Final Version
+
+You are assisting the administration team in a physiotherapy clinic. Create a short, professional and friendly appointment confirmation and reminder using only the information provided.
+
+Include:
+
 - Patient first name
 - Appointment date
 - Appointment time
-- Treating practitioner name
+- Practitioner name
 - Clinic location
-- Any arrival or preparation instructions provided
-- Clinic contact instructions, if supplied
+- Any arrival or preparation instructions
+- Clinic contact instructions, if provided
 
-Requirements:
-- Use a warm, professional and respectful tone.
-- Keep the message concise and easy to understand.
-- Do not include unnecessary medical or clinical information.
-- Do not invent any missing information.
-- Do not assume the patient's diagnosis, treatment or reason for attendance.
-- If any essential appointment information is missing, state: "Staff confirmation is required before this message is sent."
-- Produce only the final patient-facing message.
+Keep the message clear, respectful, and easy to understand.
 
-Input information:
+Do not include unnecessary medical or clinical information.
 
-Patient first name:
-[Insert]
+Do not assume the reason for the appointment or any health information that has not been provided.
 
-Appointment date:
-[Insert]
+Do not invent missing information.
 
-Appointment time:
-[Insert]
+If important appointment information is missing, clearly state that staff confirmation is required.
 
-Practitioner name:
-[Insert]
+## Example Input
 
-Clinic location:
-[Insert]
+Patient first name: Sarah
+Appointment date: 18 August 2026
+Appointment time: 2:30 pm
+Practitioner name: Sharon Patel
+Clinic location: Main Street Physiotherapy Clinic
+Instructions: Please arrive 10 minutes early
 
-Arrival or preparation instructions:
-[Insert]
+## Improvement Notes
 
-Clinic contact details/instructions:
-[Insert]
+Version 1 was too general and did not specify the information required.
+
+Version 2 added the main appointment details and professional tone.
+
+The final version added privacy controls, instructions to avoid assumptions, clear handling of missing information, and a structured format suitable for clinic administration.
