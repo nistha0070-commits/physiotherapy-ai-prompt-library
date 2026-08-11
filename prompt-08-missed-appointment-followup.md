@@ -67,6 +67,30 @@ Missed appointment time: 4:00 pm
 Rescheduling instructions: Please contact reception to arrange another appointment.
 Clinic policy: A cancellation fee may apply where the approved clinic cancellation policy applies.
 
+## Final Test Output
+
+Hi Liam,
+
+We noticed that you were unable to attend your appointment scheduled for **17 August 2026 at 4:00 pm**.
+
+If you would like to arrange another appointment, please contact reception.
+
+Please note that a cancellation fee may apply where the clinic's approved cancellation policy applies.
+
+Thank you.
+
+## Test Evaluation
+
+The final prompt produced a respectful and non-judgemental missed-appointment follow-up.
+
+The message did not assume why the patient missed the appointment.
+
+It included the supplied clinic policy without inventing a specific fee or penalty.
+
+The tone remained neutral and appropriate for patient communication.
+
+Staff should confirm the attendance record and applicable cancellation policy before sending.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
