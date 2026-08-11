@@ -75,6 +75,40 @@ Administrative notes:
 - Reception needs to confirm Rachel's updated Medicare details.
 - Priority: Contact Michael's GP clinic before 12:00 pm tomorrow.
 
+## Final Test Output
+
+### Outstanding Appointments
+
+- Sarah requires appointment confirmation for **25 August at 2:00 pm**.
+
+### Patient Communications Requiring Follow-Up
+
+- Reception needs to confirm Rachel's updated Medicare details.
+
+### Referrals or Documents Awaiting Action
+
+- Michael's GP referral has not yet been received.
+
+### Billing and Invoice Follow-Up
+
+- Invoice **INV-3021** for Daniel requires payment follow-up.
+
+### Priority Actions for the Next Staff Member
+
+- Contact Michael's GP clinic before **12:00 pm tomorrow**.
+
+## Test Evaluation
+
+The final prompt successfully converted the unstructured administrative notes into a clear and organised handover summary.
+
+The information was placed under appropriate headings, making outstanding tasks easier to identify.
+
+No clinical interpretations, diagnoses or treatment recommendations were added.
+
+The AI did not create any new deadlines or priorities beyond those supplied in the source notes.
+
+Staff should compare the generated summary with the original notes before using it for operational handover.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
