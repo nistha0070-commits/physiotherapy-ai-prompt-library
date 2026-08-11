@@ -73,6 +73,35 @@ Due date: 25 August 2026
 Payment instructions: Use the secure payment link included with the invoice.
 Additional request: Please provide payment confirmation once completed.
 
+## Final Test Output
+
+Subject: Invoice INV-2045 – Payment Request
+
+Dear Daniel Smith,
+
+Please find your invoice **INV-2045**, dated **15 August 2026**, for the service provided on **14 August 2026**.
+
+The amount due is **$95.00**, with payment requested by **25 August 2026**.
+
+Please use the secure payment link included with the invoice to complete payment.
+
+Once payment has been completed, please send confirmation for our records.
+
+Kind regards,
+Physiotherapy Clinic Administration
+
+## Test Evaluation
+
+The final prompt produced a clear and professional invoice payment email.
+
+All supplied billing information was included accurately.
+
+The AI did not invent bank details, payment methods, penalties or additional fees.
+
+The wording remained polite and suitable for patient communication.
+
+Human verification is still required to ensure the invoice information matches the clinic billing system before sending.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
