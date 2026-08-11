@@ -69,6 +69,31 @@ Treating physiotherapist: Sharon Patel
 Report date: 19 August 2026
 Clinic contact: 03 9000 1234
 
+## Final Test Output
+
+Subject: Initial Physiotherapy Report – James Lee
+
+Dear Dr Emily Carter,
+
+Please find attached the **Initial Physiotherapy Report** for **James Lee**, prepared by **Sharon Patel** and dated **19 August 2026**.
+
+If you require any further information, please contact the clinic on **03 9000 1234**.
+
+Kind regards,
+Physiotherapy Clinic Administration
+
+## Test Evaluation
+
+The final prompt produced a professional and concise cover email.
+
+The output correctly identified the patient, report type, treating physiotherapist and report date.
+
+The AI did not summarise, interpret or alter any clinical information.
+
+This demonstrates that the prompt successfully keeps the AI within an administrative role.
+
+Staff must still confirm the correct report is attached and the recipient information is accurate before sending.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
