@@ -40,6 +40,7 @@ Appointment time: 2:30 pm
 Practitioner name: Sharon Patel
 Clinic location: Main Street Physiotherapy Clinic
 Instructions: Please arrive 10 minutes early
+Clinic contact: Call reception on 03 9000 1234 if you need to make changes
 
 ## Improvement Notes
 
@@ -48,3 +49,13 @@ Version 1 was too general and did not specify the information required.
 Version 2 added the main appointment details and professional tone.
 
 The final version added privacy controls, instructions to avoid assumptions, clear handling of missing information, and a structured format suitable for clinic administration.
+
+## Audit Notes
+
+- Checked that the prompt only requests the minimum information needed for an appointment reminder.
+- Confirmed that unnecessary medical or clinical information is excluded.
+- Added a rule preventing the AI from inventing missing appointment details.
+- Added staff confirmation where essential information is incomplete.
+- Final output must be reviewed by clinic staff before being sent to the patient.
+- Main risks identified include incorrect date or time, missing details, privacy exposure, or invented information.
+- Human oversight remains necessary before communication is released.
