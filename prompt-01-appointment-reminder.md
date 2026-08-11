@@ -66,6 +66,26 @@ Clinic location: Main Street Physiotherapy Clinic
 Arrival instructions: Please arrive 10 minutes early
 Contact instructions: Call reception if you need to change your appointment.
 
+## Final Test Output
+
+Hi Sarah, your physiotherapy appointment is confirmed for **18 August 2026 at 2:30 pm** with **Sharon Patel** at **Main Street Physiotherapy Clinic**.
+
+Please arrive **10 minutes early**.
+
+If you need to change your appointment, please call reception.
+
+## Test Evaluation
+
+The final prompt produced a clear, concise and professional appointment reminder.
+
+All required appointment details were included correctly.
+
+No unnecessary medical or clinical information was added.
+
+The output followed the requested patient-friendly tone and did not invent any missing information.
+
+The message is suitable for administrative use after staff verification.
+
 ## Audit Log
 
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
