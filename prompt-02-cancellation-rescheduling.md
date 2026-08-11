@@ -1,36 +1,58 @@
 # Prompt 2 – Appointment Cancellation or Rescheduling
 
-## Version 1
+## Version 1 – v1.0
 
-Write a message to a patient about a changed appointment.
+Write a message about a changed physiotherapy appointment.
 
-## Version 2
+## Version 2 – v1.1
 
-Write a professional appointment cancellation or rescheduling message. Include the patient’s first name, original appointment date and time, new appointment details if available, practitioner name, and contact instructions.
+Write a polite appointment cancellation or rescheduling message including the patient's first name, original appointment details and new appointment details if available.
 
-## Final Version
+## Final Prompt Text – v1.2
 
-You are assisting the administration team in a physiotherapy clinic. Create a professional and courteous appointment cancellation or rescheduling message using only the information provided.
+You are an administrative assistant supporting a physiotherapy clinic.
+
+Create a professional and courteous appointment cancellation or rescheduling message using only the information provided.
 
 Include:
-
 - Patient first name
 - Original appointment date
 - Original appointment time
 - Whether the appointment is cancelled or rescheduled
 - New appointment date and time, if confirmed
 - Practitioner name, if provided
-- Any relevant contact or rebooking instructions
+- Contact or rebooking instructions
 
-Keep the message polite, clear, and respectful.
+Use a polite, respectful and concise tone.
 
-Do not provide a reason for the appointment change unless it has been provided.
-
-Do not invent a new appointment date or time.
-
+Do not invent a reason for the appointment change.
+Do not invent a replacement appointment date or time.
 Do not include unnecessary medical or clinical information.
 
-If the new appointment has not been confirmed, clearly state that staff confirmation is required.
+If a replacement appointment has not been confirmed, clearly state that staff confirmation is required.
+
+Produce only the final patient-facing message.
+
+## Intended Workflow or Task
+
+This prompt supports clinic scheduling when an existing appointment must be cancelled or moved. Administration staff enter confirmed booking information and use the generated draft to communicate the change to the patient.
+
+## Problem Being Solved
+
+Manual rescheduling messages take staff time and may communicate incomplete or inconsistent information. Poor communication can lead to confusion, increased phone calls and missed appointments.
+
+## Automation Potential
+
+High for drafting standard communications. AI can create the message once appointment information is supplied. Human staff must confirm the booking change and check the final message before sending.
+
+## Risks and Limitations
+
+AI could provide an unconfirmed replacement appointment or invent a reason for cancellation. Incorrect information could inconvenience the patient and create scheduling problems.
+
+Mitigation:
+- Use confirmed booking data only.
+- Explicitly prohibit invented appointment details.
+- Require staff verification before sending.
 
 ## Example Input
 
@@ -40,23 +62,13 @@ Original appointment time: 10:00 am
 Action: Rescheduled
 New appointment date: 22 August 2026
 New appointment time: 11:30 am
-Practitioner name: Emma Jones
-Instructions: Contact reception if the new time is unsuitable
+Practitioner: Emma Jones
+Instructions: Contact reception if this time is unsuitable.
 
-## Improvement Notes
+## Audit Log
 
-Version 1 did not clearly explain whether the appointment was cancelled or rescheduled.
-
-Version 2 included the main appointment details and contact information.
-
-The final version added controls to prevent invented appointment details, protected unnecessary clinical information, and provided clear instructions for handling unconfirmed bookings.
-
-## Audit Notes
-
-- Checked that the prompt clearly distinguishes between cancellation and rescheduling.
-- Added safeguards to prevent the AI from creating an unconfirmed replacement appointment.
-- Confirmed that reasons for cancellation are not invented.
-- Unnecessary clinical information is excluded.
-- Staff must verify the original and new appointment details before sending the message.
-- Main risks identified include incorrect appointment details, misleading information, and inappropriate assumptions.
-- Human approval is required before the final message is sent.
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+|---|---|---|---|
+| v1.0 | Broad appointment-change instruction | Output lacked important booking details | The task needs clearer variables |
+| v1.1 | Added original and replacement appointment details | Output became more useful but could still invent explanations | Add strict factual constraints |
+| v1.2 | Added no-assumption rules and staff confirmation | Output became safer and more reliable | Controlled inputs reduce scheduling risk |
